@@ -1,0 +1,62 @@
+nav ul {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    list-style-type: none;
+    height: 40px;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+nav ul li {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 8px
+}
+
+nav ul li:hover {
+    border: 1px black solid;
+    background-color: #b5b5ba;
+
+}
+
+section h2 {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(110%);
+    transition: all 400ms ease-in-out;
+}
+
+img {
+    transition: all 400ms ease-in-out;
+}
+
+body {
+    background-color: lightskyblue
+}
+
+footer p {
+    text-align: left;
+    padding: 10px;
+}
+header h1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px black solid;
+    border-radius: 10px;
+
+}
+a:hover {
+    color: #000000; /* Зміна кольору при наведенні */
+}

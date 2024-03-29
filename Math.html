@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Наукові новини</title>
+    <link rel="icon" href="Nauka.jpg" type="image/jpeg">
+    <script src="JSfiles/Browser.js"></script>
+    <script defer src="JSfiles/ForMouseON.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/ForMATH.css">
+    <link rel="stylesheet" href="./css/ForMouse.css.css">
+
+
+    <style>
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Сайт наукових новин</h1>
+</header>
+<nav >
+    <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="News.html">Новини</a></li>
+        <li><a href="Events.html">Події</a></li>
+        <li><a href="Publications.html">Публікації</a></li>
+        <li><a href="InterstingFacts.html">Наукові відкриття</a></li>
+        <li><a href="UkrainianNews.html">Новини в Україні</a></li>
+        <li><a href="Contacts.html">Контакти</a></li>
+        <li><a href="Math.html">Різні операції</a></li>
+    </ul>
+</nav>
+
+<script defer src="JSfiles/radio.js"></script>
+<form>
+    <label><input type="radio" name="image" value="image1"> Варіант 1</label>
+    <label><input type="radio" name="image" value="image2"> Варіант 2</label>
+    <label><input type="radio" name="image" value="image3"> Варіант 3</label>
+    <label><input type="radio" name="image" value="image4"> Варіант 4</label>
+    <label><input type="radio" name="image" value="image5"> Варіант 5</label>
+</form>
+
+<div id="imageContainer"></div>
+<button id="returnButton">Повернутися</button><br/>
+<hr>
+<button id="calculateButton">Виконати операції</button>
+
+<div id="sumResult"></div>
+<div id="differenceResult"></div>
+<div id="divisionResult"></div>
+<div id="multiplicationResult"></div>
+
+<script defer src="JSfiles/JavaScript.js"></script>
+<hr>
+<form>
+    <label>
+        Оберіть сторінку:
+        <select id="pageSelect">
+            <option value="index.html">Головна</option>
+            <option value="News.html">Новини</option>
+            <option value="Events.html">Події</option>
+            <option value="Publications.html">Публікації</option>
+            <option value="InterstingFacts.html">Наукові відкриття</option>
+            <option value="UkrainianNews.html">Новини в Україні</option>
+            <option value="Contacts.html">Контакти</option>
+            <option value="Math.html">Різні операції</option>
+        </select>
+    </label>
+    <input type="button" value="Перейти" onclick="redirectToSelectedPage()">
+</form>
+<script defer src="JSfiles/SelectedPage.js"></script>
+<hr>
+<div id="imageContainers">
+    <img id="zoomedImage" src="12.jpg" alt="Zoomed Image" onmouseover="zoomIn()" onmouseout="zoomOut()">
+</div>
+
+
+<script src="JSfiles/Jokes.js"></script>
+</body>
+</html>
